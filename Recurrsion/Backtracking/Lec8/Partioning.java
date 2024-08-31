@@ -15,6 +15,7 @@ public class Partioning {
             return;
         }
         for (int i = 1; i <= st.length(); i++) {
+            
             Partioning_1(st.substring(i), string + st.substring(0, i) + "|");
         }
     }

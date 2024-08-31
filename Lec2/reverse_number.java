@@ -22,8 +22,7 @@ public class reverse_number {
 			mul/=10;
 		}
 		System.out.println(ans);
-		int nun1=sc.nextInt();
-		int product=1;
+		
 		
 	}
 
