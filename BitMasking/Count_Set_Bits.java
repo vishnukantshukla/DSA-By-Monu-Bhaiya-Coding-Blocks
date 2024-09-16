@@ -9,6 +9,7 @@ public class Count_Set_Bits {
     }
 
     private static int Count_SetBit(int num) {
+        // Here is a logic to count the set bits in number
         int count = 0;
         while (num != 0) {
             if ((num & 1) != 0) {
